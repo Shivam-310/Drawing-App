@@ -30,6 +30,26 @@ section{
 .tools-board .row{
     margin-bottom: 20px;
 }
+.row .options{
+    list-style: none;
+    margin: 10px 0 0 5px;
+}
+.row .options .option{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.options :where(span, label){
+    color: #5a6168;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.option #fill-color{
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+}
 .drawing-board{
     flex: 1;
 }
